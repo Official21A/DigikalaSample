@@ -33,17 +33,10 @@
 	width:25%;
 	float:right;
 }
+
 .col-2{
 	width:16.66666%;
 	float:right;
-}
-
-.padding-8px{
-	padding:8px;
-}
-
-.margin-8px{
-	margin:8px;
 }
 
 /* End of bootstrap grid */
