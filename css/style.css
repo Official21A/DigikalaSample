@@ -1,0 +1,205 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:tahoma;
+	direction:rtl;
+	text-align:right;
+	background:#d4d4d4;
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:active{
+	color:black;
+	text-decoration:none;
+}
+
+.container{
+	max-width:1900px;
+	width:100%;
+	display:block;
+	margin:0px auto;
+	
+}
+.header{
+	background: #fff;
+	width:100%;
+    /* width: calc(100% - 20px); */
+    padding: 15px;
+}
+
+.header-logo{
+	float:right;
+}
+.header-search{
+	float:right;
+}
+.header-login{
+	float:left;
+}
+.clearfix {
+    height: 0px;
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.header-search {
+    float: right;
+	
+	/* method1 - بهتره کمتر استفاده کنیم */
+    /* position: relative; */
+    /* right: 14px; */
+    /* top: 2px; */
+	
+	/* method 2 - بهتره ازین استفاده کنیم */
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.header-search-input {
+    border: 0px;
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 4px 12px;
+    outline: 0px;
+
+}
+
+.header-login button {
+    border: 1px solid #b5b5b5;
+    padding: 4px 12px;
+    border-radius: 7px;
+    background: #fff;
+    color: #3c3c3c;
+}
+
+.header-search form {
+    position: relative;
+}
+
+.header-search-button {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    border: 0px;
+    background: #ff000000;
+}
+
+
+.header-search-input {
+    padding-right: 39px;
+}
+
+
+/* bootstrap grid */
+.row{
+	width:100%;
+	
+}
+.col-12{
+	width:100%;
+	float:right;
+}
+
+.col-6{
+	width:50%;
+	float:right;
+}
+
+.col-4{
+	width:33.33333%;
+	float:right;
+}
+.col-8{
+	width:66.66666%;
+	float:right;
+}
+
+.col-3{
+	width:25%;
+	float:right;
+}
+.col-2{
+	width:16.66666%;
+	float:right;
+}
+
+.col-10{
+	width:83.33333%;
+	float:right;
+}
+
+
+.padding-8px{
+	padding:8px;
+}
+
+.margin-8px{
+	margin:8px;
+}
+
+
+/* bootstrap grid */
+
+.slider-slide {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.slider-ads {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pic {
+    width: 100%;
+	
+    border-radius: 15px;
+}
+
+
+.slider {
+    width: 100%;
+    padding: 10px 5%;
+}
+
+.product {
+	 width: 100%;
+   
+    padding: 10px 5%;
+}
+
+.offer-pic {
+    width: 100%;
+}
+
+.offer {
+    background: #ef394e;
+    width: 100%;
+    padding: 20px 9%;
+}
+
+.white-box{
+	background:#fff;
+}
+
+.white-box {
+    background: #fff;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
