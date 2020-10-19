@@ -1,3 +1,5 @@
+/* Main tags */
+
 body{
 	margin:0px;
 	padding:0px;
@@ -6,13 +8,14 @@ body{
 	text-align:right;
 	background:#d4d4d4;
 }
+
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
 }
 
-a {
+a{
 	color:black;
 	text-decoration:none;
 }
@@ -34,6 +37,9 @@ a:active{
 	margin:0px auto;
 	
 }
+
+/* Header classes */
+
 .header{
 	background: #fff;
 	width:100%;
@@ -44,22 +50,17 @@ a:active{
 .header-logo{
 	float:right;
 }
+
 .header-search{
 	float:right;
 }
+
 .header-login{
 	float:left;
 }
-.clearfix {
-    height: 0px;
-    clear: both;
-    display: block;
-    width: 100%;
-}
 
-.header-search {
+.header-search{
     float: right;
-	
 	/* method1 - بهتره کمتر استفاده کنیم */
     /* position: relative; */
     /* right: 14px; */
@@ -70,7 +71,7 @@ a:active{
     margin-top: 2px;
 }
 
-.header-search-input {
+.header-search-input{
     border: 0px;
     background: #e6e6e6;
     border-radius: 5px;
@@ -79,7 +80,7 @@ a:active{
 
 }
 
-.header-login button {
+.header-login button{
     border: 1px solid #b5b5b5;
     padding: 4px 12px;
     border-radius: 7px;
@@ -87,11 +88,11 @@ a:active{
     color: #3c3c3c;
 }
 
-.header-search form {
+.header-search form{
     position: relative;
 }
 
-.header-search-button {
+.header-search-button{
     position: absolute;
     right: 3px;
     top: 4px;
@@ -99,85 +100,35 @@ a:active{
     background: #ff000000;
 }
 
-
-.header-search-input {
+.header-search-input{
     padding-right: 39px;
 }
 
+/* End of headers */
 
-/* bootstrap grid */
-.row{
-	width:100%;
-	
-}
-.col-12{
-	width:100%;
-	float:right;
-}
+/* Slider classes */
 
-.col-6{
-	width:50%;
-	float:right;
-}
-
-.col-4{
-	width:33.33333%;
-	float:right;
-}
-.col-8{
-	width:66.66666%;
-	float:right;
-}
-
-.col-3{
-	width:25%;
-	float:right;
-}
-.col-2{
-	width:16.66666%;
-	float:right;
-}
-
-.col-10{
-	width:83.33333%;
-	float:right;
-}
-
-
-.padding-8px{
-	padding:8px;
-}
-
-.margin-8px{
-	margin:8px;
-}
-
-
-/* bootstrap grid */
-
-.slider-slide {
+.slider-slide{
     width: 100%;
     border-radius: 15px;
 }
 
-.slider-ads {
+.slider-ads{
     width: 100%;
     border-radius: 15px;
 }
 
-.pic {
+.pic{
     width: 100%;
-	
     border-radius: 15px;
 }
 
-
-.slider {
+.slider{
     width: 100%;
     padding: 10px 5%;
 }
 
-.product {
+.product{
 	 width: 100%;
    
     padding: 10px 5%;
@@ -187,10 +138,22 @@ a:active{
     width: 100%;
 }
 
-.offer {
+.offer{
     background: #ef394e;
     width: 100%;
     padding: 20px 9%;
+}
+
+/* End of slider */
+
+/* Others */ 
+
+/* Style for a div that fixes the box height */
+.clearfix {
+    height: 0px;
+    clear: both;
+    display: block;
+    width: 100%;
 }
 
 .white-box{
