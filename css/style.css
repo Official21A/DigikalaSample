@@ -143,12 +143,11 @@ a:active{
 
 /* End of slider */
 
-/* Footer */
+/* Footer classes */
 
 .footer{
 	background: #fff;
 	width:100%;
-    /* width: calc(100% - 20px); */
     padding: 15px;
 }
 
