@@ -12,8 +12,16 @@
 	margin:8px;
 }
 
+.padding-right{
+	margin-right:8px;
+}
+
 .margin-top{
 	margin-top:2%;
+}
+
+.more-margin-top{
+	margin-top:20%;
 }
 
 .align-center{
@@ -22,6 +30,20 @@
 
 .round-corner{
 	border-radius: 8px;
+}
+
+.right-border{
+	border-right: 1px solid black;
+	border-color: #e6e6e6;
+}
+
+.top-border{
+	border-top: 1px solid black;
+	border-color: #e6e6e6;
+}
+
+.color-gray{
+	color: #8b8585;
 }
 
 .block{
