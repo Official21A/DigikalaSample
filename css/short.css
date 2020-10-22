@@ -1,4 +1,4 @@
-/* Extra classes */ 
+/* Short css styles */ 
 
 .padding-8px{
 	padding:8px;
@@ -33,13 +33,15 @@
 }
 
 .right-border{
-	border-right: 1px solid black;
-	border-color: #e6e6e6;
+	border-right: 1px solid #e6e6e6;
 }
 
 .top-border{
-	border-top: 1px solid black;
-	border-color: #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+
+.bottom-border{
+	border-bottom: 1px solid #e6e6e6;
 }
 
 .color-gray{
